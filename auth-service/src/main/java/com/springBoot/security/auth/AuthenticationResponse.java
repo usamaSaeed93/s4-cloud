@@ -13,4 +13,5 @@ import org.springframework.stereotype.Component;
 @Component
 public class AuthenticationResponse {
     private String token;
+    private String message;
 }
